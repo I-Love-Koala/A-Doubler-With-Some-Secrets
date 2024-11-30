@@ -28,7 +28,7 @@ if user_input == "koala":
                 sys.exit()  # Terminate the program
             elif what_to_do == "kill koala" or what_to_do == "kill koalas":
                 # Print a scolding message in a loop, then exit
-                for _ in range(5):  # Limit the loop to 5 messages to avoid overloading the user
+                for _ in range(999999999999999999999999999999999):
                     print("You are a bad boyyyyyyyyyyyyy.")
                 sys.exit()
             elif what_to_do == "sleep like a koala":
