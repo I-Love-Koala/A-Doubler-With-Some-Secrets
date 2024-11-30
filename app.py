@@ -1,6 +1,8 @@
 import sys
 import random
 
+#this is not the same like on the mac
+
 # This program doubles the number you give it.
 number_to_double = input("What number should I double? ")
 
