@@ -8,7 +8,7 @@ def main():
             if not number.replace(".", "", 1).isdigit():
                 input("Sorry, that's not a number, press Enter to try again.")
                 os.system('cls' if os.name == 'nt' else 'clear')
-                continue  # loop back and ask again
+                continue
             number = float(number)
             doubled_number = number * 2
             print(f"The double of {number} is {doubled_number}")
