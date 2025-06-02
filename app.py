@@ -15,7 +15,7 @@ def main():
             user_input = input("Hit Enter or type anything and hit Enter to leave. ").lower().strip()
             if user_input == "koala":
                 koalalab()
-            break  # exit the loop after successful double
+            break 
     except KeyboardInterrupt:
         print("\nError 4: User quit")
         sys.exit()
